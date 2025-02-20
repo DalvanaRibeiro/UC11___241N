@@ -20,14 +20,14 @@ public class relacaoAlunoTest {
     public void testDescansoSuficiente(){
         System.out.printf("Testando descanso suficiente...");
         String descanso = relacaoAluno.calcularDescanso(aluno1);
-        assertEquals("Férias são necessárias! O aluno está exausto. 😒", descanso, "Esperado descanso de férias é suficiente.")
+        assertEquals("Férias são necessárias! O aluno está exausto. 😒", descanso, "Esperado descanso de férias é suficiente.");
     }
     // Teste para verificar o descanso do aluno 2
     @Test
     public  void testDescansoModerado(){
         System.out.printf("Testando o descanso Moderado...");
         String descanso = relacaoAluno.calcularDescanso(aluno2);
-        assertEquals("Descanso diário suficiente: O aluno está tranquilo, sem stress!", descanso, "");
+        assertEquals("Descanso diário suficiente: O aluno está tranquilo, sem stress!😎", descanso, "");
     }
 
 
