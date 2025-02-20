@@ -27,7 +27,7 @@ public class relacaoAlunoTest {
     public  void testDescansoModerado(){
         System.out.printf("Testando o descanso Moderado...");
         String descanso = relacaoAluno.calcularDescanso(aluno2);
-        assertEquals("Descanso diário suficiente: O aluno está tranquilo, sem stress!😎", descanso, "");
+        assertEquals("Descanso diário suficiente: O aluno está tranquilo, sem stress!😎 ", descanso, "");
     }
 
 
